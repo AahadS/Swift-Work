@@ -1,15 +1,20 @@
 import { render, screen } from '@testing-library/react';
 import { NextIntlClientProvider } from 'next-intl';
 
-import messages from '@/locales/en.json';
-
 import { CenteredFooter } from './CenteredFooter';
+
+// Replace the messages import with a minimal mock
+const mockMessages = {
+  Footer: {
+    copyright: '© Copyright',
+  },
+};
 
 describe('CenteredFooter', () => {
   describe('Render method', () => {
     it('should have copyright information', () => {
       render(
-        <NextIntlClientProvider locale="en" messages={messages}>
+        <NextIntlClientProvider locale="en" messages={mockMessages}>
           <CenteredFooter logo={null} name="" iconList={null} legalLinks={null}>
             Random children
           </CenteredFooter>

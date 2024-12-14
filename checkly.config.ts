@@ -18,9 +18,9 @@ const emailChannel = new EmailAlertChannel('email-channel-1', {
 
 export const config = defineConfig({
   // FIXME: Add your own project name, logical ID, and repository URL
-  projectName: 'SaaS Boilerplate',
-  logicalId: 'saas-boilerplate',
-  repoUrl: 'https://github.com/ixartz/Next-js-Boilerplate',
+  projectName: 'Swift Work',
+  logicalId: 'Swift Work',
+  repoUrl: 'https://github.com/AahadS/Swift-Work.git',
   checks: {
     locations: ['us-east-1', 'eu-west-1'],
     tags: ['website'],
