@@ -1,30 +1,25 @@
 {
   "Index": {
-    "meta_title": "SaaS Template - Le template SaaS parfait pour construire et mettre à l'échelle votre entreprise en toute simplicité.",
+    "meta_title": "Swift Work - Le template SaaS parfait pour construire et mettre à l'échelle votre entreprise en toute simplicité.",
     "meta_description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec React, TypeScript, Shadcn UI et Tailwind CSS."
   },
   "Navbar": {
     "sign_in": "Se connecter",
     "sign_up": "S'inscrire",
     "product": "Produit",
-    "docs": "Docs",
-    "blog": "Blog",
-    "community": "Communauté",
     "company": "Entreprise"
   },
   "Hero": {
-    "follow_twitter": "Suivez @Ixartz sur Twitter",
-    "title": "Le parfait <important>SaaS template</important> pour construire et mettre à l'échelle votre entreprise en toute simplicité.",
+    "title": "Le parfait <important>Swift Work</important> pour construire et mettre à l'échelle votre entreprise en toute simplicité.",
     "description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec React, TypeScript, Shadcn UI et Tailwind CSS.",
-    "primary_button": "Démarrer",
-    "secondary_button": "Mettez une étoile sur GitHub"
+    "primary_button": "Démarrer"
   },
   "Sponsors": {
     "title": "Sponsorisé par"
   },
   "Features": {
     "section_subtitle": "Fonctionnalités",
-    "section_title": "Débloquer le plein potentiel du SaaS Template",
+    "section_title": "Débloquer le plein potentiel du Swift Work",
     "section_description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec React, TypeScript, Shadcn UI et Tailwind CSS.",
     "feature1_title": "Node.js",
     "feature2_title": "React",
@@ -36,7 +31,7 @@
   },
   "Pricing": {
     "section_subtitle": "Fonctionnalités",
-    "section_title": "Débloquer le plein potentiel du SaaS Template",
+    "section_title": "Débloquer le plein potentiel du Swift Work",
     "section_description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec React, TypeScript, Shadcn UI et Tailwind CSS.",
     "button_text": "Démarrer"
   },
@@ -67,9 +62,6 @@
   },
   "Footer": {
     "product": "Produit",
-    "docs": "Docs",
-    "blog": "Blog",
-    "community": "Communauté",
     "company": "Entreprise",
     "terms_of_service": "Conditions d'utilisation",
     "privacy_policy": "Politique de confidentialité",
@@ -94,7 +86,7 @@
     "settings": "Réglages"
   },
   "Dashboard": {
-    "meta_title": "Tableau de bord du SaaS Template",
+    "meta_title": "Tableau de bord du Swift Work",
     "meta_description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec Next.js, TypeScript, Shadcn UI et Tailwind CSS."
   },
   "DashboardIndex": {

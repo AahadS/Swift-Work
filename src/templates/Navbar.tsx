@@ -37,19 +37,16 @@ export const Navbar = () => {
         </li>
 
         <li>
-          <Link href="/sign-up">{t('docs')}</Link>
-        </li>
-
-        <li>
-          <Link href="/sign-up">{t('blog')}</Link>
-        </li>
-
-        <li>
-          <Link href="/sign-up">{t('community')}</Link>
-        </li>
-
-        <li>
           <Link href="/sign-up">{t('company')}</Link>
+        </li>
+        <li>
+          <Link href="/sign-up">{t('about')}</Link>
+        </li>
+        <li>
+          <Link href="/sign-up">{t('faq')}</Link>
+        </li>
+        <li>
+          <Link href="/sign-up">{t('contact')}</Link>
         </li>
       </CenteredMenu>
     </Section>

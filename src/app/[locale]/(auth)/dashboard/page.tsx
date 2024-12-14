@@ -1,4 +1,3 @@
-import { GitHubLogoIcon } from '@radix-ui/react-icons';
 import { useTranslations } from 'next-intl';
 
 import { buttonVariants } from '@/components/ui/buttonVariants';
@@ -38,21 +37,18 @@ const DashboardIndexPage = () => {
           ),
         })}
         button={(
-          <>
-            <a
-              className={buttonVariants({ size: 'lg' })}
-              href="https://github.com/ixartz/SaaS-Boilerplate"
-            >
-              <GitHubLogoIcon className="mr-2 size-5" />
-              {t('message_state_button')}
-            </a>
-
-            <div className="mt-7">
-              <SponsorLogos />
-            </div>
-          </>
+          <a
+            className={buttonVariants({ size: 'lg' })}
+            href="/sign-up"
+          >
+            {t('message_state_button')}
+          </a>
         )}
       />
+
+      <div className="mt-7">
+        <SponsorLogos />
+      </div>
     </>
   );
 };

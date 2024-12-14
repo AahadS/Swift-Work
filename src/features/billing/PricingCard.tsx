@@ -3,13 +3,16 @@ import React from 'react';
 
 import type { BillingInterval } from '@/types/Subscription';
 
-export const PricingCard = (props: {
+type PricingCardProps = {
   planId: string;
-  price: number;
+  price: string;
+  description: string;
   interval: BillingInterval;
   button: React.ReactNode;
   children: React.ReactNode;
-}) => {
+};
+
+export const PricingCard = (props: PricingCardProps) => {
   const t = useTranslations('PricingPlan');
 
   return (
@@ -29,7 +32,7 @@ export const PricingCard = (props: {
       </div>
 
       <div className="mt-2 text-sm text-muted-foreground">
-        {t(`${props.planId}_plan_description`)}
+        {props.description}
       </div>
 
       {props.button}
