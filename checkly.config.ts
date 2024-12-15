@@ -18,8 +18,8 @@ const emailChannel = new EmailAlertChannel('email-channel-1', {
 
 export const config = defineConfig({
   // FIXME: Add your own project name, logical ID, and repository URL
-  projectName: 'Swift Work',
-  logicalId: 'Swift Work',
+  projectName: 'Hirevity',
+  logicalId: 'Hirevity',
   repoUrl: 'https://github.com/AahadS/Swift-Work.git',
   checks: {
     locations: ['us-east-1', 'eu-west-1'],

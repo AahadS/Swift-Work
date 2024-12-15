@@ -23,7 +23,9 @@
     "storybook:serve": "http-server storybook-static --port 6006 --silent",
     "serve-storybook": "run-s storybook:*",
     "test-storybook:ci": "start-server-and-test serve-storybook http://127.0.0.1:6006 test-storybook",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test-db-connection": "node test-db-connection.js",
+    "type": "module"
   },
   "dependencies": {
     "@clerk/localizations": "^3.2.1",
@@ -47,8 +49,10 @@
     "@tanstack/react-table": "^8.20.5",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "dotenv": "^16.4.7",
     "drizzle-orm": "^0.35.1",
     "lucide-react": "^0.453.0",
+    "mysql2": "^3.11.5",
     "next": "^14.2.15",
     "next-intl": "^3.21.1",
     "next-themes": "^0.3.0",

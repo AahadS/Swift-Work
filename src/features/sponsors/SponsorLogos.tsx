@@ -12,7 +12,7 @@ export const SponsorLogos = () => {
           Our Achievements
         </h2>
         <p className="mb-12 text-lg text-gray-600">
-          At Swift Work, we are dedicated to providing innovative software
+          At Hirevity, we are dedicated to providing innovative software
           solutions and IT services that empower businesses to streamline
           operations and achieve their goals efficiently.
         </p>

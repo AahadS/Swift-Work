@@ -1,6 +1,6 @@
 {
   "Index": {
-    "meta_title": "Swift Work - The perfect Swift Work to build and scale your business with ease.",
+    "meta_title": "Hirevity - The perfect Hirevity to build and scale your business with ease.",
     "meta_description": "A free and open-source landing page template for your SaaS business, built with React, TypeScript, Shadcn UI, and Tailwind CSS."
   },
   "Navbar": {
@@ -14,14 +14,14 @@
   },
   "Hero": {
     "title": "Empowering <important> AI-Driven Innovation </important> and <important> Transformative</important> tech solutions.",
-    "description": "Swift Work is a leading technology company specializing in providing innovative software solutions and IT services",
+    "description": "Hirevity is a leading technology company specializing in providing innovative software solutions and IT services",
     "primary_button": "Get Started"
   },
 
   "Features": {
     "section_subtitle": "Features",
-    "section_title": "Unlock the Full Potential of Swift Work",
-    "section_description": "Swift Work is a leading technology company specializing in providing innovative software solutions and IT services to businesses across various industries.",
+    "section_title": "Unlock the Full Potential of Hirevity",
+    "section_description": "Hirevity is a leading technology company specializing in providing innovative software solutions and IT services to businesses across various industries.",
     "feature1_title": "Innovative Software Solutions",
     "feature1_description": "Custom software solutions tailored to your business needs, enabling operational efficiency and scalability.",
     "feature2_title": "IT Services",
@@ -37,7 +37,7 @@
   },
   "Pricing": {
     "section_subtitle": "Membership Plans",
-    "section_title": "Unlock the Full Potential of Swift Work",
+    "section_title": "Unlock the Full Potential of Hirevity",
     "section_description": "Checkout Subscriptions available below or contact us for custom solutions.",
     "button_text": "Get Started"
   },
@@ -77,33 +77,33 @@
   },
   "FAQ": {
     "question1": {
-      "question": "What is Swift Work?",
-      "answer": "Swift Work is a global intermediary company that connects businesses with freelancers, facilitating outsourcing solutions for projects of any scale."
+      "question": "What is Hirevity?",
+      "answer": "Hirevity is a global intermediary company that connects businesses with freelancers, facilitating outsourcing solutions for projects of any scale."
     },
     "question2": {
-      "question": "How does Swift Work ensure quality?",
-      "answer": "Swift Work carefully vets freelancers and continuously monitors the progress of each project to ensure top-quality results for our clients."
+      "question": "How does Hirevity ensure quality?",
+      "answer": "Hirevity carefully vets freelancers and continuously monitors the progress of each project to ensure top-quality results for our clients."
     },
     "question3": {
-      "question": "Who can use Swift Work?",
-      "answer": "Swift Work is designed for businesses and individuals seeking freelance talent for their projects, as well as skilled professionals looking for freelance opportunities."
+      "question": "Who can use Hirevity?",
+      "answer": "Hirevity is designed for businesses and individuals seeking freelance talent for their projects, as well as skilled professionals looking for freelance opportunities."
     },
     "question4": {
-      "question": "What industries does Swift Work cater to?",
-      "answer": "Swift Work serves a wide range of industries including technology, marketing, design, writing, and more, offering tailored solutions for each client."
+      "question": "What industries does Hirevity cater to?",
+      "answer": "Hirevity serves a wide range of industries including technology, marketing, design, writing, and more, offering tailored solutions for each client."
     },
     "question5": {
-      "question": "How are payments managed on Swift Work?",
+      "question": "How are payments managed on Hirevity?",
       "answer": "Payments are securely managed through our platform, ensuring timely transfers to freelancers upon project completion and client approval."
     },
     "question6": {
-      "question": "How do I get started with Swift Work?",
+      "question": "How do I get started with Hirevity?",
       "answer": "Getting started is easy! Simply sign up on our platform, create a project listing, or apply for freelance opportunities that match your skills."
     }
   },
   "CTA": {
     "title": "Questions?",
-    "description": "Reach out to us at support@swiftwork.ca",
+    "description": "Reach out to us at support@Hirevity.ca",
     "button_text": "Contact Us"
   },
   "Footer": {
@@ -130,7 +130,7 @@
     "settings": "Settings"
   },
   "Dashboard": {
-    "meta_title": "Swift Work Dashboard",
+    "meta_title": "Hirevity Dashboard",
     "meta_description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS."
   },
   "DashboardIndex": {

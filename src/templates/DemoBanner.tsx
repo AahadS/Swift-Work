@@ -4,7 +4,7 @@ import { StickyBanner } from '@/features/landing/StickyBanner';
 
 export const DemoBanner = () => (
   <StickyBanner>
-    Access the Swift Work User Dashboard -
+    Access the Hirevity User Dashboard -
     {' '}
     <Link href="/sign-up">Explore the User Dashboard</Link>
   </StickyBanner>

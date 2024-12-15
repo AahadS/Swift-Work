@@ -1,6 +1,6 @@
 {
   "Index": {
-    "meta_title": "Swift Work - Le template SaaS parfait pour construire et mettre à l'échelle votre entreprise en toute simplicité.",
+    "meta_title": "Hirevity - Le template SaaS parfait pour construire et mettre à l'échelle votre entreprise en toute simplicité.",
     "meta_description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec React, TypeScript, Shadcn UI et Tailwind CSS."
   },
   "Navbar": {
@@ -10,7 +10,7 @@
     "company": "Entreprise"
   },
   "Hero": {
-    "title": "Le parfait <important>Swift Work</important> pour construire et mettre à l'échelle votre entreprise en toute simplicité.",
+    "title": "Le parfait <important>Hirevity</important> pour construire et mettre à l'échelle votre entreprise en toute simplicité.",
     "description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec React, TypeScript, Shadcn UI et Tailwind CSS.",
     "primary_button": "Démarrer"
   },
@@ -19,7 +19,7 @@
   },
   "Features": {
     "section_subtitle": "Fonctionnalités",
-    "section_title": "Débloquer le plein potentiel du Swift Work",
+    "section_title": "Débloquer le plein potentiel du Hirevity",
     "section_description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec React, TypeScript, Shadcn UI et Tailwind CSS.",
     "feature1_title": "Node.js",
     "feature2_title": "React",
@@ -31,7 +31,7 @@
   },
   "Pricing": {
     "section_subtitle": "Fonctionnalités",
-    "section_title": "Débloquer le plein potentiel du Swift Work",
+    "section_title": "Débloquer le plein potentiel du Hirevity",
     "section_description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec React, TypeScript, Shadcn UI et Tailwind CSS.",
     "button_text": "Démarrer"
   },
@@ -86,7 +86,7 @@
     "settings": "Réglages"
   },
   "Dashboard": {
-    "meta_title": "Tableau de bord du Swift Work",
+    "meta_title": "Tableau de bord du Hirevity",
     "meta_description": "Un template gratuit et open-source de landing page pour votre entreprise SaaS, construit avec Next.js, TypeScript, Shadcn UI et Tailwind CSS."
   },
   "DashboardIndex": {
