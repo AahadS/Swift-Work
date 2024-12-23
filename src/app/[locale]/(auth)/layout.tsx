@@ -1,5 +1,3 @@
-'use client';
-
 import { enUS, frFR } from '@clerk/localizations';
 import { ClerkProvider } from '@clerk/nextjs';
 
@@ -9,15 +7,10 @@ export default function AuthLayout(props: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  let clerkLocale = enUS;
   let signInUrl = '/sign-in';
   let signUpUrl = '/sign-up';
   let dashboardUrl = '/dashboard';
   let afterSignOutUrl = '/';
-
-  if (props.params.locale === 'fr') {
-    clerkLocale = frFR;
-  }
 
   if (props.params.locale !== AppConfig.defaultLocale) {
     signInUrl = `/${props.params.locale}${signInUrl}`;
@@ -26,9 +19,10 @@ export default function AuthLayout(props: {
     afterSignOutUrl = `/${props.params.locale}${afterSignOutUrl}`;
   }
 
+  const clerkLocale = props.params.locale === 'fr' ? frFR : enUS;
+
   return (
     <ClerkProvider
-      // PRO: Dark mode support for Clerk
       localization={clerkLocale}
       signInUrl={signInUrl}
       signUpUrl={signUpUrl}

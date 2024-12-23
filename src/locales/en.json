@@ -17,7 +17,6 @@
     "description": "Hirevity is a leading technology company specializing in providing innovative software solutions and IT services",
     "primary_button": "Get Started"
   },
-
   "Features": {
     "section_subtitle": "Features",
     "section_title": "Unlock the Full Potential of Hirevity",
@@ -116,7 +115,11 @@
   },
   "SignIn": {
     "meta_title": "Sign in",
-    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+    "meta_description": "Seamlessly sign in to your account with our user-friendly login process.",
+    "welcome_message": "Welcome Back!",
+    "email_placeholder": "Enter your email",
+    "password_placeholder": "Enter your password",
+    "submit_button": "Sign In"
   },
   "SignUp": {
     "meta_title": "Sign up",
@@ -131,14 +134,1382 @@
   },
   "Dashboard": {
     "meta_title": "Hirevity Dashboard",
-    "meta_description": "A free and open-source landing page template for your SaaS business, built with Next.js, TypeScript, Shadcn UI, and Tailwind CSS."
+    "meta_description": "Welcome to your dashboard."
   },
   "DashboardIndex": {
-    "title_bar": "Dashboard",
-    "title_bar_description": "Welcome to your dashboard",
-    "message_state_title": "Let's get started",
-    "message_state_description": "You can customize this page by editing the file at <code>dashboard/page.tsx</code>",
-    "message_state_button": "Star on GitHub"
+    "title_bar": "Browse Services",
+    "subtitle": "Here you can browse the different IT Services that are available on our platform",
+    "services": {
+      "it_freelancing": {
+        "title": "IT Freelancing",
+        "description": "Find and hire IT professionals for your projects",
+        "features": [
+          "Software Development",
+          "System Administration",
+          "Cloud Services"
+        ],
+        "button": "Browse IT Services"
+      },
+      "ai": {
+        "title": "AI Services",
+        "description": "AI solutions and machine learning services",
+        "features": [
+          "Machine Learning Models",
+          "Natural Language Processing",
+          "Computer Vision Solutions"
+        ],
+        "button": "Browse AI Services"
+      },
+      "bi": {
+        "title": "Business Intelligence",
+        "description": "Transform data into actionable insights",
+        "features": [
+          "Data Visualization",
+          "Business Analytics",
+          "Performance Metrics"
+        ],
+        "button": "Browse BI Services"
+      },
+      "data_engineering": {
+        "title": "Data Engineering",
+        "description": "Build robust data infrastructure",
+        "features": [
+          "ETL Pipeline Development",
+          "Data Warehouse Design",
+          "Big Data Solutions"
+        ],
+        "button": "Browse Data Engineering"
+      },
+      "cloud": {
+        "title": "Cloud Architecture",
+        "description": "Design and implement cloud solutions",
+        "features": [
+          "AWS/Azure/GCP Solutions",
+          "Cloud Migration",
+          "DevOps Implementation"
+        ],
+        "button": "Browse Cloud Services"
+      },
+      "security": {
+        "title": "Cybersecurity",
+        "description": "Protect your digital assets",
+        "features": [
+          "Security Assessments",
+          "Penetration Testing",
+          "Security Architecture"
+        ],
+        "button": "Browse Security Services"
+      },
+      "web_development": {
+        "title": "Web Development",
+        "description": "Full-stack web development services",
+        "features": [
+          "Frontend Development",
+          "Backend Development",
+          "Responsive Design"
+        ],
+        "button": "Browse Web Dev"
+      },
+      "mobile_development": {
+        "title": "Mobile Development",
+        "description": "Native and cross-platform mobile apps",
+        "features": [
+          "iOS Development",
+          "Android Development",
+          "Cross-platform Solutions"
+        ],
+        "button": "Browse Mobile Dev"
+      },
+      "devops": {
+        "title": "DevOps Services",
+        "description": "Streamline your development operations",
+        "features": [
+          "CI/CD Pipeline Setup",
+          "Infrastructure as Code",
+          "Monitoring & Logging"
+        ],
+        "button": "Browse DevOps"
+      },
+      "blockchain": {
+        "title": "Blockchain",
+        "description": "Blockchain development and consulting",
+        "features": [
+          "Smart Contracts",
+          "DApp Development",
+          "Blockchain Integration"
+        ],
+        "button": "Browse Blockchain"
+      },
+      "iot": {
+        "title": "IoT Solutions",
+        "description": "Internet of Things development",
+        "features": [
+          "IoT Architecture",
+          "Embedded Systems",
+          "IoT Analytics"
+        ],
+        "button": "Browse IoT"
+      },
+      "qa_testing": {
+        "title": "QA & Testing",
+        "description": "Quality assurance and testing services",
+        "features": [
+          "Automated Testing",
+          "Performance Testing",
+          "Security Testing"
+        ],
+        "button": "Browse QA"
+      }
+    }
+  },
+  "Services": {
+    "AI": {
+      "title": "AI Solutions Agencies",
+      "description": "Partner with leading artificial intelligence agencies specializing in machine learning, deep learning, and AI integration. Our vetted agencies have proven track records in delivering innovative AI solutions across various industries.",
+      "companies": {
+        "hirevity-ai": {
+          "name": "Hirevity AI Solutions",
+          "fullDescription": "Leading AI solutions provider with over a decade of experience in delivering cutting-edge artificial intelligence solutions. Our team of expert data scientists and ML engineers specializes in developing custom AI models, implementing machine learning solutions, and integrating AI capabilities into existing systems. We've successfully delivered transformative AI projects for Fortune 500 companies across multiple industries.",
+          "expertise": [
+            "Machine Learning Development",
+            "Deep Learning Solutions",
+            "Natural Language Processing",
+            "Computer Vision",
+            "AI Model Optimization",
+            "Neural Networks",
+            "Predictive Analytics",
+            "AI Infrastructure",
+            "MLOps",
+            "AI Consulting"
+          ],
+          "services": {
+            "starter": {
+              "title": "AI Starter Package",
+              "price": 6500,
+              "description": "Perfect for businesses starting their AI journey",
+              "features": [
+                "AI feasibility assessment",
+                "Basic ML model development",
+                "Data preparation & cleaning",
+                "Model training & validation",
+                "3-month support"
+              ]
+            },
+            "professional": {
+              "title": "AI Professional Package",
+              "price": 12500,
+              "description": "Comprehensive AI solutions for growing needs",
+              "features": [
+                "Everything in Starter",
+                "Advanced ML model development",
+                "Custom AI pipeline setup",
+                "Model optimization",
+                "6-month support"
+              ]
+            },
+            "enterprise": {
+              "title": "AI Enterprise Package",
+              "price": 25000,
+              "description": "Enterprise-grade AI solutions",
+              "features": [
+                "Everything in Professional",
+                "Enterprise AI architecture",
+                "MLOps implementation",
+                "24/7 model monitoring",
+                "12-month support"
+              ]
+            },
+            "custom": {
+              "title": "Custom AI Solution",
+              "description": "Tailored AI solutions for unique requirements",
+              "features": [
+                "Custom AI architecture",
+                "Dedicated AI team",
+                "Full MLOps setup",
+                "Custom model development",
+                "Flexible support terms"
+              ]
+            }
+          }
+        },
+        "neural-dynamics": {
+          "name": "Neural Dynamics Labs",
+          "fullDescription": "Innovative AI research and development firm with cutting-edge expertise in neural networks and deep learning. Our team of PhDs and AI researchers specializes in developing advanced machine learning solutions and custom neural architectures. With a focus on pushing the boundaries of AI technology, we've helped organizations implement state-of-the-art AI solutions across various domains.",
+          "expertise": [
+            "Neural Network Design",
+            "AI Model Training",
+            "Predictive Analytics",
+            "AI Infrastructure",
+            "MLOps Implementation",
+            "Deep Learning Research",
+            "Time Series Analysis",
+            "Reinforcement Learning",
+            "Transfer Learning",
+            "AI Model Deployment"
+          ],
+          "services": {
+            "starter": {
+              "title": "Research Package",
+              "price": 8500,
+              "description": "Initial AI research and prototype development",
+              "features": [
+                "AI feasibility research",
+                "Neural architecture design",
+                "Prototype development",
+                "Initial model training",
+                "4-month research support"
+              ]
+            },
+            "professional": {
+              "title": "Development Package",
+              "price": 15000,
+              "description": "Full neural network development and deployment",
+              "features": [
+                "Everything in Research",
+                "Custom neural architecture",
+                "Advanced model training",
+                "Performance optimization",
+                "8-month development support"
+              ]
+            },
+            "enterprise": {
+              "title": "Enterprise AI Package",
+              "price": 28000,
+              "description": "Complete enterprise AI implementation",
+              "features": [
+                "Everything in Development",
+                "Enterprise-scale deployment",
+                "Distributed training setup",
+                "Production optimization",
+                "12-month enterprise support"
+              ]
+            },
+            "custom": {
+              "title": "Research Partnership",
+              "description": "Custom AI research and development",
+              "features": [
+                "Dedicated research team",
+                "Custom research goals",
+                "IP rights management",
+                "Publication support",
+                "Flexible engagement terms"
+              ]
+            }
+          }
+        },
+        "cognitive-systems": {
+          "name": "Cognitive Systems Global",
+          "fullDescription": "Enterprise AI solutions provider specializing in cognitive computing and intelligent automation. Our team combines deep technical expertise with business acumen to deliver AI solutions that drive operational efficiency and innovation. We focus on creating practical, scalable AI implementations that deliver measurable business value.",
+          "expertise": [
+            "Cognitive Computing",
+            "AI Automation",
+            "Intelligent Analytics",
+            "AI Integration",
+            "Machine Learning Ops",
+            "Process Automation",
+            "Knowledge Graphs",
+            "Semantic Analysis",
+            "Decision Systems",
+            "AI Governance"
+          ],
+          "services": {
+            "starter": {
+              "title": "Cognitive Starter",
+              "price": 7500,
+              "description": "Entry-level cognitive computing solutions",
+              "features": [
+                "Cognitive system assessment",
+                "Basic automation setup",
+                "Initial AI integration",
+                "Process analysis",
+                "3-month implementation support"
+              ]
+            },
+            "professional": {
+              "title": "Intelligent Enterprise",
+              "price": 18000,
+              "description": "Comprehensive cognitive computing solution",
+              "features": [
+                "Everything in Starter",
+                "Advanced automation",
+                "Full cognitive integration",
+                "Process optimization",
+                "6-month enterprise support"
+              ]
+            },
+            "enterprise": {
+              "title": "Cognitive Transformation",
+              "price": 32000,
+              "description": "Complete cognitive enterprise solution",
+              "features": [
+                "Everything in Professional",
+                "Enterprise cognitive architecture",
+                "Full-scale automation",
+                "Cross-system integration",
+                "12-month transformation support"
+              ]
+            },
+            "custom": {
+              "title": "Custom Cognitive Solution",
+              "description": "Tailored cognitive computing implementation",
+              "features": [
+                "Custom solution design",
+                "Specialized integration",
+                "Bespoke automation",
+                "Dedicated support team",
+                "Custom maintenance terms"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "ITFreelancing": {
+      "title": "Enterprise IT Solutions Agencies",
+      "description": "Partner with leading IT agencies that specialize in enterprise-level software development, digital transformation, and technology consulting. Our vetted agencies have proven track records in delivering complex IT projects across various industries.",
+      "basic": {
+        "title": "Basic Consultation",
+        "description": "One-time consultation to discuss your project needs",
+        "features": [
+          "60-minute consultation",
+          "Project scope analysis",
+          "Written recommendations",
+          "Technology stack advice"
+        ],
+        "button": "Book Consultation"
+      },
+      "guided": {
+        "title": "Guided Consultation",
+        "description": "Consultation plus ongoing guidance for your project",
+        "features": [
+          "Everything in Basic",
+          "Project planning assistance",
+          "2 follow-up sessions",
+          "Technical documentation review"
+        ],
+        "button": "Get Started"
+      },
+      "full": {
+        "title": "Full Project Support",
+        "description": "Complete guidance until project completion",
+        "features": [
+          "Everything in Guided",
+          "Weekly progress meetings",
+          "Code review & feedback",
+          "Implementation support"
+        ],
+        "button": "Start Project"
+      },
+      "custom": {
+        "title": "Enterprise Custom",
+        "pricing": "Custom Quote",
+        "description": "Tailored solution for complex projects",
+        "features": [
+          "Custom project scope",
+          "Dedicated team",
+          "Priority support",
+          "Flexible pricing"
+        ],
+        "button": "Request Quote"
+      }
+    },
+    "BusinessIntelligence": {
+      "title": "Business Intelligence Solutions",
+      "description": "Partner with leading business intelligence agencies specializing in data visualization, analytics, and actionable insights. Our vetted agencies have proven track records in delivering transformative BI solutions across various industries.",
+      "companies": {
+        "hirevity-bi": {
+          "name": "Hirevity BI Solutions",
+          "fullDescription": "Leading business intelligence provider with extensive experience in delivering data-driven insights and analytics solutions. Our team of BI experts specializes in transforming complex data into actionable business intelligence, helping organizations make informed decisions through advanced analytics and visualization.",
+          "expertise": [
+            "Data Visualization",
+            "Business Analytics",
+            "Performance Metrics",
+            "Dashboard Development",
+            "KPI Monitoring",
+            "Data Modeling",
+            "ETL Processes",
+            "Report Automation",
+            "Predictive Analytics",
+            "Data Governance"
+          ],
+          "services": {
+            "starter": {
+              "title": "BI Starter Package",
+              "price": 5500,
+              "description": "Essential BI setup for small businesses",
+              "features": [
+                "Basic dashboard setup",
+                "Data source integration",
+                "Key metrics tracking",
+                "Basic reporting",
+                "3-month support"
+              ]
+            },
+            "professional": {
+              "title": "BI Professional Package",
+              "price": 9500,
+              "description": "Comprehensive BI solution for growing companies",
+              "features": [
+                "Everything in Starter",
+                "Advanced dashboards",
+                "Custom metrics setup",
+                "Automated reporting",
+                "6-month support"
+              ]
+            },
+            "enterprise": {
+              "title": "BI Enterprise Package",
+              "price": 18000,
+              "description": "Full-scale BI implementation for enterprises",
+              "features": [
+                "Everything in Professional",
+                "Enterprise data modeling",
+                "Real-time analytics",
+                "Advanced visualizations",
+                "12-month support"
+              ]
+            },
+            "custom": {
+              "title": "Custom BI Solution",
+              "description": "Tailored BI solutions for unique requirements",
+              "features": [
+                "Custom analytics setup",
+                "Dedicated BI team",
+                "Full system integration",
+                "Custom reporting",
+                "Flexible support terms"
+              ]
+            }
+          }
+        },
+        "insight-analytics": {
+          "name": "Insight Analytics Global",
+          "fullDescription": "Premier analytics firm specializing in transforming raw data into strategic business insights. Our innovative approach combines cutting-edge technology with deep industry expertise to deliver comprehensive business intelligence solutions that drive growth and efficiency.",
+          "expertise": [
+            "Advanced Analytics",
+            "Statistical Analysis",
+            "Data Mining",
+            "Machine Learning",
+            "Real-time Analytics",
+            "Big Data Processing",
+            "Interactive Dashboards",
+            "Custom Reporting",
+            "Data Strategy",
+            "Analytics Training"
+          ],
+          "services": {
+            "starter": {
+              "title": "Analytics Essentials",
+              "price": 6500,
+              "description": "Foundational analytics setup",
+              "features": [
+                "Data assessment",
+                "Basic analytics setup",
+                "Standard reporting",
+                "Performance tracking",
+                "3-month guidance"
+              ]
+            },
+            "professional": {
+              "title": "Advanced Analytics",
+              "price": 11500,
+              "description": "Comprehensive analytics solution",
+              "features": [
+                "Everything in Essentials",
+                "Advanced data modeling",
+                "Predictive analytics",
+                "Custom dashboards",
+                "6-month support"
+              ]
+            },
+            "enterprise": {
+              "title": "Enterprise Analytics",
+              "price": 22000,
+              "description": "Enterprise-grade analytics platform",
+              "features": [
+                "Everything in Advanced",
+                "AI-powered analytics",
+                "Real-time processing",
+                "Full integration",
+                "12-month support"
+              ]
+            },
+            "custom": {
+              "title": "Custom Analytics",
+              "description": "Tailored analytics solutions",
+              "features": [
+                "Custom analytics design",
+                "Specialized models",
+                "Full customization",
+                "Dedicated team",
+                "Custom SLA"
+              ]
+            }
+          }
+        },
+        "datavision-pro": {
+          "name": "DataVision Pro",
+          "fullDescription": "Innovative data visualization and business intelligence firm focused on creating intuitive, actionable insights. We specialize in transforming complex data sets into clear, compelling visual stories that enable better decision-making at all organizational levels.",
+          "expertise": [
+            "Visual Analytics",
+            "Interactive Dashboards",
+            "Data Storytelling",
+            "Business Metrics",
+            "Performance Analytics",
+            "Custom Visualizations",
+            "Mobile BI",
+            "Embedded Analytics",
+            "Self-service BI",
+            "Data Discovery"
+          ],
+          "services": {
+            "starter": {
+              "title": "Visualization Starter",
+              "price": 4800,
+              "description": "Essential data visualization setup",
+              "features": [
+                "Basic visualizations",
+                "Standard dashboards",
+                "Data integration",
+                "Basic training",
+                "3-month support"
+              ]
+            },
+            "professional": {
+              "title": "Pro Visualization",
+              "price": 8800,
+              "description": "Advanced visualization solutions",
+              "features": [
+                "Everything in Starter",
+                "Interactive dashboards",
+                "Custom visualizations",
+                "Advanced training",
+                "6-month support"
+              ]
+            },
+            "enterprise": {
+              "title": "Enterprise Vision",
+              "price": 16500,
+              "description": "Enterprise visualization platform",
+              "features": [
+                "Everything in Pro",
+                "Real-time visualizations",
+                "Advanced interactivity",
+                "Full platform access",
+                "12-month support"
+              ]
+            },
+            "custom": {
+              "title": "Custom Visualization",
+              "description": "Custom visualization solutions",
+              "features": [
+                "Bespoke visualizations",
+                "Custom platform",
+                "Full customization",
+                "Dedicated support",
+                "Custom terms"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "DataEngineering": {
+      "title": "Data Engineering Solutions",
+      "description": "Partner with leading data engineering firms specializing in building robust data infrastructure, ETL pipelines, and scalable data solutions. Our vetted agencies have proven track records in delivering enterprise-grade data engineering projects.",
+      "companies": {
+        "hirevity-data": {
+          "name": "Hirevity Data Engineering",
+          "fullDescription": "Premier data engineering firm with extensive experience in building scalable data infrastructure. Our team of expert data engineers specializes in designing and implementing robust data pipelines, warehouses, and lakes that enable organizations to harness the full potential of their data assets.",
+          "expertise": [
+            "ETL Pipeline Development",
+            "Data Warehouse Design",
+            "Big Data Solutions",
+            "Data Lake Architecture",
+            "Stream Processing",
+            "Data Modeling",
+            "Database Optimization",
+            "Data Integration",
+            "Data Quality Management",
+            "Real-time Analytics"
+          ],
+          "services": {
+            "starter": {
+              "title": "Data Foundation",
+              "price": 7500,
+              "description": "Essential data infrastructure setup",
+              "features": [
+                "Data architecture assessment",
+                "Basic ETL pipeline setup",
+                "Data warehouse design",
+                "Performance optimization",
+                "3-month support"
+              ]
+            },
+            "professional": {
+              "title": "Data Scale-up",
+              "price": 15000,
+              "description": "Advanced data engineering solution",
+              "features": [
+                "Everything in Foundation",
+                "Advanced ETL workflows",
+                "Data lake implementation",
+                "Real-time processing",
+                "6-month support"
+              ]
+            },
+            "enterprise": {
+              "title": "Enterprise Data",
+              "price": 28000,
+              "description": "Enterprise-grade data infrastructure",
+              "features": [
+                "Everything in Scale-up",
+                "Distributed processing",
+                "Multi-source integration",
+                "Advanced monitoring",
+                "12-month support"
+              ]
+            },
+            "custom": {
+              "title": "Custom Data Solution",
+              "description": "Tailored data engineering services",
+              "features": [
+                "Custom architecture design",
+                "Specialized pipelines",
+                "Full infrastructure setup",
+                "Dedicated team",
+                "Custom SLA"
+              ]
+            }
+          }
+        },
+        "dataflow-systems": {
+          "name": "DataFlow Systems",
+          "fullDescription": "Innovative data engineering company focused on building next-generation data infrastructure. We specialize in creating scalable, efficient data pipelines and processing systems that handle complex data requirements while maintaining high performance and reliability.",
+          "expertise": [
+            "Streaming Analytics",
+            "Data Pipeline Design",
+            "Cloud Data Platform",
+            "Data Migration",
+            "Data Governance",
+            "Schema Design",
+            "Data Processing",
+            "Data Security",
+            "Performance Tuning",
+            "Data Architecture"
+          ],
+          "services": {
+            "starter": {
+              "title": "Pipeline Essentials",
+              "price": 6800,
+              "description": "Basic data pipeline setup",
+              "features": [
+                "Data flow assessment",
+                "Pipeline architecture",
+                "Basic integrations",
+                "Monitoring setup",
+                "3-month support"
+              ]
+            },
+            "professional": {
+              "title": "Advanced Pipeline",
+              "price": 13500,
+              "description": "Comprehensive data solution",
+              "features": [
+                "Everything in Essentials",
+                "Stream processing",
+                "Advanced integrations",
+                "Performance optimization",
+                "6-month support"
+              ]
+            },
+            "enterprise": {
+              "title": "Enterprise Pipeline",
+              "price": 25000,
+              "description": "Enterprise data infrastructure",
+              "features": [
+                "Everything in Advanced",
+                "Distributed processing",
+                "Full automation",
+                "Custom integrations",
+                "12-month support"
+              ]
+            },
+            "custom": {
+              "title": "Custom Pipeline",
+              "description": "Custom data engineering solution",
+              "features": [
+                "Tailored architecture",
+                "Custom workflows",
+                "Specialized processing",
+                "Dedicated support",
+                "Flexible terms"
+              ]
+            }
+          }
+        },
+        "data-forge": {
+          "name": "Data Forge Solutions",
+          "fullDescription": "Enterprise data engineering firm specializing in building robust and scalable data infrastructure. Our expertise spans modern data stack implementation, real-time processing systems, and advanced data integration solutions for organizations of all sizes.",
+          "expertise": [
+            "Data Infrastructure",
+            "ETL/ELT Solutions",
+            "Data Warehousing",
+            "Data Lakes",
+            "Real-time Processing",
+            "Data Pipelines",
+            "Data Modeling",
+            "Data Integration",
+            "Data Quality",
+            "Data Ops"
+          ],
+          "services": {
+            "starter": {
+              "title": "Data Core",
+              "price": 7200,
+              "description": "Core data infrastructure setup",
+              "features": [
+                "Infrastructure design",
+                "Basic pipeline setup",
+                "Data modeling",
+                "Quality checks",
+                "3-month support"
+              ]
+            },
+            "professional": {
+              "title": "Data Pro",
+              "price": 14500,
+              "description": "Professional data engineering",
+              "features": [
+                "Everything in Core",
+                "Advanced pipelines",
+                "Real-time processing",
+                "Advanced modeling",
+                "6-month support"
+              ]
+            },
+            "enterprise": {
+              "title": "Data Enterprise",
+              "price": 27000,
+              "description": "Enterprise data solution",
+              "features": [
+                "Everything in Pro",
+                "Full infrastructure",
+                "Custom integrations",
+                "Advanced automation",
+                "12-month support"
+              ]
+            },
+            "custom": {
+              "title": "Custom Data Engineering",
+              "description": "Tailored data solutions",
+              "features": [
+                "Custom architecture",
+                "Specialized solutions",
+                "Full customization",
+                "Dedicated team",
+                "Custom terms"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "Cloud": {
+      "title": "Cloud Architecture Solutions",
+      "description": "Partner with leading cloud architecture firms specializing in enterprise-scale cloud solutions, migration, and infrastructure design. Our vetted agencies have proven track records in delivering successful cloud transformation projects.",
+      "companies": {
+        "hirevity-cloud": {
+          "name": "Hirevity Cloud Solutions",
+          "fullDescription": "Premier cloud architecture firm with extensive experience in enterprise-scale cloud solutions. Our team of certified cloud architects specializes in designing and implementing robust, scalable infrastructure and migration solutions. We've successfully delivered cloud transformation projects for Fortune 500 companies across multiple industries, ensuring seamless transitions and optimal performance.",
+          "expertise": [
+            "AWS/Azure/GCP Solutions",
+            "Cloud Migration",
+            "Infrastructure as Code",
+            "Cloud Security",
+            "Serverless Architecture",
+            "Multi-Cloud Strategy",
+            "Cloud Cost Optimization",
+            "DevOps Integration",
+            "Microservices Architecture",
+            "Cloud Governance"
+          ],
+          "services": {
+            "starter": {
+              "title": "Cloud Foundation",
+              "price": 8500,
+              "description": "Essential cloud infrastructure setup",
+              "features": [
+                "Cloud readiness assessment",
+                "Basic infrastructure setup",
+                "Security configuration",
+                "Cost optimization",
+                "3-month support"
+              ]
+            },
+            "professional": {
+              "title": "Cloud Migration",
+              "price": 15000,
+              "description": "Comprehensive cloud migration solution",
+              "features": [
+                "Everything in Foundation",
+                "Migration strategy",
+                "Data transfer",
+                "Application migration",
+                "6-month support"
+              ]
+            },
+            "enterprise": {
+              "title": "Enterprise Cloud",
+              "price": 28000,
+              "description": "Full-scale enterprise cloud solution",
+              "features": [
+                "Everything in Migration",
+                "Multi-cloud setup",
+                "Advanced security",
+                "24/7 monitoring",
+                "12-month support"
+              ]
+            },
+            "custom": {
+              "title": "Custom Cloud Solution",
+              "description": "Tailored cloud architecture services",
+              "features": [
+                "Custom architecture",
+                "Specialized solutions",
+                "Full infrastructure",
+                "Dedicated team",
+                "Custom SLA"
+              ]
+            }
+          }
+        },
+        "cloudscape-systems": {
+          "name": "CloudScape Systems",
+          "fullDescription": "Leading cloud infrastructure provider focusing on modern cloud-native solutions. Our expertise spans cloud migration, optimization, and advanced cloud architecture design. We specialize in Kubernetes, containerization, and cloud-native development, helping organizations build and maintain scalable, efficient cloud environments.",
+          "expertise": [
+            "Cloud Native Development",
+            "Kubernetes Solutions",
+            "Cloud Cost Optimization",
+            "DevOps Integration",
+            "Container Orchestration",
+            "Cloud Monitoring",
+            "Service Mesh",
+            "CI/CD Pipeline",
+            "Cloud Security",
+            "Performance Tuning"
+          ],
+          "services": {
+            "starter": {
+              "title": "Cloud Native Starter",
+              "price": 7500,
+              "description": "Basic cloud-native infrastructure",
+              "features": [
+                "Container setup",
+                "Basic Kubernetes",
+                "CI/CD pipeline",
+                "Monitoring setup",
+                "3-month support"
+              ]
+            },
+            "professional": {
+              "title": "Advanced Cloud Native",
+              "price": 14500,
+              "description": "Comprehensive cloud-native solution",
+              "features": [
+                "Everything in Starter",
+                "Service mesh",
+                "Advanced orchestration",
+                "Auto-scaling",
+                "6-month support"
+              ]
+            },
+            "enterprise": {
+              "title": "Enterprise Native",
+              "price": 25000,
+              "description": "Enterprise cloud-native platform",
+              "features": [
+                "Everything in Advanced",
+                "Multi-cluster setup",
+                "Advanced security",
+                "Full automation",
+                "12-month support"
+              ]
+            },
+            "custom": {
+              "title": "Custom Native",
+              "description": "Custom cloud-native solution",
+              "features": [
+                "Custom architecture",
+                "Specialized setup",
+                "Full automation",
+                "Dedicated support",
+                "Custom terms"
+              ]
+            }
+          }
+        },
+        "skybridge-tech": {
+          "name": "SkyBridge Technologies",
+          "fullDescription": "Innovative cloud solutions provider specializing in digital transformation through cloud technologies. We excel in designing and implementing secure, scalable cloud infrastructures with a focus on hybrid and multi-cloud environments. Our approach ensures seamless integration and optimal performance across all cloud platforms.",
+          "expertise": [
+            "Cloud Architecture Design",
+            "Hybrid Cloud Solutions",
+            "Cloud Security",
+            "Performance Optimization",
+            "Disaster Recovery",
+            "Cloud Governance",
+            "Network Design",
+            "Load Balancing",
+            "Auto Scaling",
+            "Cloud Monitoring"
+          ],
+          "services": {
+            "starter": {
+              "title": "Cloud Essentials",
+              "price": 6800,
+              "description": "Basic cloud infrastructure setup",
+              "features": [
+                "Architecture design",
+                "Basic setup",
+                "Security config",
+                "Monitoring",
+                "3-month support"
+              ]
+            },
+            "professional": {
+              "title": "Cloud Pro",
+              "price": 13500,
+              "description": "Advanced cloud infrastructure",
+              "features": [
+                "Everything in Essentials",
+                "Load balancing",
+                "Auto-scaling",
+                "Advanced security",
+                "6-month support"
+              ]
+            },
+            "enterprise": {
+              "title": "Cloud Enterprise",
+              "price": 24000,
+              "description": "Enterprise cloud platform",
+              "features": [
+                "Everything in Pro",
+                "Multi-region setup",
+                "Disaster recovery",
+                "24/7 monitoring",
+                "12-month support"
+              ]
+            },
+            "custom": {
+              "title": "Custom Cloud",
+              "description": "Tailored cloud solution",
+              "features": [
+                "Custom design",
+                "Specialized setup",
+                "Full integration",
+                "Dedicated team",
+                "Custom terms"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "CloudArchitecture": {
+      "title": "Cloud Architecture Services",
+      "description": "Enterprise-grade cloud solutions for your business",
+      "companies": {
+        "hirevity-cloud": {
+          "name": "Hirevity Cloud",
+          "rating": "5",
+          "reviews": "345",
+          "projectsCompleted": "512",
+          "isGlobal": true,
+          "fullDescription": "Premier cloud architecture firm with extensive experience in enterprise-scale cloud solutions",
+          "expertise": [
+            "AWS/Azure/GCP Solutions",
+            "Cloud Migration",
+            "Infrastructure as Code",
+            "Cloud Security",
+            "Serverless Architecture",
+            "Multi-Cloud Strategy"
+          ],
+          "services": {
+            "starter": {
+              "title": "Starter",
+              "price": "5000",
+              "description": "Essential cloud services for small businesses",
+              "features": [
+                "AWS/Azure/GCP Solutions",
+                "Cloud Migration",
+                "Cloud Security"
+              ]
+            },
+            "professional": {
+              "title": "Professional",
+              "price": "10000",
+              "description": "Advanced cloud solutions for growing businesses",
+              "features": [
+                "Infrastructure as Code",
+                "Serverless Architecture",
+                "24/7 Support"
+              ]
+            },
+            "enterprise": {
+              "title": "Enterprise",
+              "price": "25000",
+              "description": "Comprehensive cloud solutions for large organizations",
+              "features": [
+                "Multi-Cloud Strategy",
+                "Custom Architecture Design",
+                "Dedicated Support Team"
+              ]
+            },
+            "custom": {
+              "title": "Custom",
+              "description": "Tailored solutions for unique requirements",
+              "features": [
+                "Custom Implementation",
+                "Specialized Solutions",
+                "Flexible Pricing"
+              ]
+            }
+          }
+        },
+        "cloudscape-systems": {
+          "name": "Cloudscape Systems",
+          "rating": "4.9",
+          "reviews": "289",
+          "projectsCompleted": "467",
+          "isGlobal": true,
+          "fullDescription": "Leading cloud infrastructure provider focusing on modern cloud-native solutions",
+          "expertise": [
+            "Cloud Native Development",
+            "Kubernetes Solutions",
+            "Cloud Cost Optimization",
+            "DevOps Integration",
+            "Container Orchestration",
+            "Cloud Monitoring"
+          ],
+          "services": {
+            "starter": {
+              "title": "Starter",
+              "price": "7500",
+              "description": "Basic cloud-native infrastructure",
+              "features": [
+                "Container setup",
+                "Basic Kubernetes",
+                "CI/CD pipeline",
+                "Monitoring setup",
+                "3-month support"
+              ]
+            },
+            "professional": {
+              "title": "Advanced Cloud Native",
+              "price": 14500,
+              "description": "Comprehensive cloud-native solution",
+              "features": [
+                "Everything in Starter",
+                "Service mesh",
+                "Advanced orchestration",
+                "Auto-scaling",
+                "6-month support"
+              ]
+            },
+            "enterprise": {
+              "title": "Enterprise Native",
+              "price": 25000,
+              "description": "Enterprise cloud-native platform",
+              "features": [
+                "Everything in Advanced",
+                "Multi-cluster setup",
+                "Advanced security",
+                "Full automation",
+                "12-month support"
+              ]
+            },
+            "custom": {
+              "title": "Custom Native",
+              "description": "Custom cloud-native solution",
+              "features": [
+                "Custom architecture",
+                "Specialized setup",
+                "Full automation",
+                "Dedicated support",
+                "Custom terms"
+              ]
+            }
+          }
+        },
+        "skybridge-tech": {
+          "name": "Skybridge Tech",
+          "rating": "4.8",
+          "reviews": "312",
+          "projectsCompleted": "423",
+          "isGlobal": true,
+          "fullDescription": "Specialized in cloud architecture design, hybrid solutions, and security governance",
+          "expertise": [
+            "Cloud Architecture Design",
+            "Hybrid Cloud Solutions",
+            "Cloud Security",
+            "Performance Optimization",
+            "Disaster Recovery",
+            "Cloud Governance"
+          ],
+          "services": {
+            "starter": {
+              "title": "Starter",
+              "price": "6800",
+              "description": "Basic cloud infrastructure setup",
+              "features": [
+                "Architecture design",
+                "Basic setup",
+                "Security config",
+                "Monitoring",
+                "3-month support"
+              ]
+            },
+            "professional": {
+              "title": "Cloud Pro",
+              "price": 13500,
+              "description": "Advanced cloud infrastructure",
+              "features": [
+                "Everything in Essentials",
+                "Load balancing",
+                "Auto-scaling",
+                "Advanced security",
+                "6-month support"
+              ]
+            },
+            "enterprise": {
+              "title": "Cloud Enterprise",
+              "price": 24000,
+              "description": "Enterprise cloud platform",
+              "features": [
+                "Everything in Pro",
+                "Multi-region setup",
+                "Disaster recovery",
+                "24/7 monitoring",
+                "12-month support"
+              ]
+            },
+            "custom": {
+              "title": "Custom Cloud",
+              "description": "Tailored cloud solution",
+              "features": [
+                "Custom design",
+                "Specialized setup",
+                "Full integration",
+                "Dedicated team",
+                "Custom terms"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "Security": {
+      "title": "Cybersecurity Solutions",
+      "description": "Partner with leading cybersecurity firms specializing in enterprise security, penetration testing, and security architecture. Our vetted agencies have proven track records in delivering comprehensive security solutions.",
+      "companies": {
+        "hirevity-security": {
+          "name": "Hirevity Security",
+          "rating": "5.0",
+          "reviews": "378",
+          "projectsCompleted": "534",
+          "isGlobal": true,
+          "fullDescription": "Leading cybersecurity firm providing enterprise-grade security solutions and consulting. Our team of certified security experts specializes in comprehensive security assessments, penetration testing, and implementing robust security architectures.",
+          "expertise": [
+            "Security Assessments",
+            "Penetration Testing",
+            "Security Architecture",
+            "Incident Response",
+            "Compliance & Governance",
+            "Security Training"
+          ],
+          "services": {
+            "starter": {
+              "title": "Security Assessment",
+              "price": "7500",
+              "description": "Comprehensive security evaluation",
+              "features": [
+                "Vulnerability Assessment",
+                "Risk Analysis",
+                "Security Gap Analysis",
+                "Compliance Review",
+                "3-month Support"
+              ]
+            },
+            "professional": {
+              "title": "Advanced Security",
+              "price": "15000",
+              "description": "Enhanced security implementation",
+              "features": [
+                "Everything in Assessment",
+                "Penetration Testing",
+                "Security Hardening",
+                "Incident Response Plan",
+                "6-month Support"
+              ]
+            },
+            "enterprise": {
+              "title": "Enterprise Security",
+              "price": "28000",
+              "description": "Full-scale enterprise security",
+              "features": [
+                "Everything in Advanced",
+                "24/7 Monitoring",
+                "Advanced Threat Protection",
+                "Security Architecture",
+                "12-month Support"
+              ]
+            },
+            "custom": {
+              "title": "Custom Security",
+              "description": "Tailored security solutions",
+              "features": [
+                "Custom Implementation",
+                "Specialized Solutions",
+                "Dedicated Team",
+                "Custom SLA",
+                "Flexible Terms"
+              ]
+            }
+          }
+        },
+        "secureguard-solutions": {
+          "name": "SecureGuard Solutions",
+          "rating": "4.9",
+          "reviews": "312",
+          "projectsCompleted": "489",
+          "isGlobal": true,
+          "fullDescription": "Premier cybersecurity provider specializing in advanced threat protection and security automation. We deliver innovative security solutions that protect organizations from evolving cyber threats.",
+          "expertise": [
+            "Threat Detection",
+            "Security Automation",
+            "Cloud Security",
+            "Network Security",
+            "Identity Management",
+            "Security Operations"
+          ],
+          "services": {
+            "starter": {
+              "title": "Basic Security",
+              "price": "6800",
+              "description": "Essential security setup",
+              "features": [
+                "Security Assessment",
+                "Basic Monitoring",
+                "Threat Detection",
+                "Security Policies",
+                "3-month Support"
+              ]
+            },
+            "professional": {
+              "title": "Professional Security",
+              "price": "14500",
+              "description": "Advanced security package",
+              "features": [
+                "Everything in Basic",
+                "Advanced Monitoring",
+                "Incident Response",
+                "Security Automation",
+                "6-month Support"
+              ]
+            },
+            "enterprise": {
+              "title": "Enterprise Defense",
+              "price": "26000",
+              "description": "Complete security solution",
+              "features": [
+                "Everything in Professional",
+                "24/7 SOC",
+                "Advanced Analytics",
+                "Custom Playbooks",
+                "12-month Support"
+              ]
+            },
+            "custom": {
+              "title": "Custom Security",
+              "description": "Tailored security package",
+              "features": [
+                "Custom Solutions",
+                "Dedicated Team",
+                "Full Integration",
+                "Custom Reporting",
+                "Flexible Terms"
+              ]
+            }
+          }
+        },
+        "cyberdefense-pro": {
+          "name": "CyberDefense Pro",
+          "rating": "4.8",
+          "reviews": "287",
+          "projectsCompleted": "445",
+          "isGlobal": true,
+          "fullDescription": "Expert cybersecurity firm focused on proactive defense and security intelligence. Our team specializes in advanced threat detection and enterprise security architecture.",
+          "expertise": [
+            "Threat Intelligence",
+            "Security Architecture",
+            "Vulnerability Management",
+            "Compliance Management",
+            "Security Analytics",
+            "Incident Response"
+          ],
+          "services": {
+            "starter": {
+              "title": "Defense Essentials",
+              "price": "7200",
+              "description": "Core security package",
+              "features": [
+                "Threat Assessment",
+                "Security Monitoring",
+                "Vulnerability Scanning",
+                "Basic Response",
+                "3-month Support"
+              ]
+            },
+            "professional": {
+              "title": "Advanced Defense",
+              "price": "16000",
+              "description": "Enhanced security suite",
+              "features": [
+                "Everything in Essentials",
+                "Threat Intelligence",
+                "Active Defense",
+                "Incident Management",
+                "6-month Support"
+              ]
+            },
+            "enterprise": {
+              "title": "Enterprise Shield",
+              "price": "29000",
+              "description": "Complete defense system",
+              "features": [
+                "Everything in Advanced",
+                "Custom Architecture",
+                "24/7 Response",
+                "Advanced Analytics",
+                "12-month Support"
+              ]
+            },
+            "custom": {
+              "title": "Custom Defense",
+              "description": "Tailored defense solution",
+              "features": [
+                "Custom Strategy",
+                "Dedicated Team",
+                "Full Integration",
+                "Custom Reporting",
+                "Flexible Terms"
+              ]
+            }
+          }
+        }
+      }
+    }
   },
   "UserProfile": {
     "title_bar": "User Profile",

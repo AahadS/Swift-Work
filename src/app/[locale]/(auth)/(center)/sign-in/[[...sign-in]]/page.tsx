@@ -16,7 +16,16 @@ export async function generateMetadata(props: { params: { locale: string } }) {
 }
 
 const SignInPage = (props: { params: { locale: string } }) => (
-  <SignIn path={getI18nPath('/sign-in', props.params.locale)} />
+  <SignIn
+    path={getI18nPath('/sign-in', props.params.locale)}
+    routing="path"
+    appearance={{
+      elements: {
+        formField: 'mt-4',
+        buttonPrimary: 'mt-6 bg-primary hover:bg-primary-dark',
+      },
+    }}
+  />
 );
 
 export default SignInPage;

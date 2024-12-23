@@ -1,11 +1,11 @@
 CREATE TABLE IF NOT EXISTS `users` (
     `id` INT AUTO_INCREMENT PRIMARY KEY,
     `username` VARCHAR(50) NOT NULL,
-    `email` VARCHAR(100) NOT NULL UNIQUE,
-    `phoneNumber` VARCHAR(15) NULL,
-    `passwordHash` TEXT NULL,
-    `googleLogin` TINYINT(1) DEFAULT 0,
-    `microsoftLogin` TINYINT(1) DEFAULT 0,
+    `email` VARCHAR(100) UNIQUE NOT NULL,
+    `phoneNumber` VARCHAR(15),
+    `passwordHash` TEXT,
+    `googleLogin` BOOLEAN DEFAULT FALSE,
+    `microsoftLogin` BOOLEAN DEFAULT FALSE,
     `createdat` TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
     `updatedat` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP NOT NULL
 );

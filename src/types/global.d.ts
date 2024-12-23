@@ -1,15 +1,15 @@
-import type { OrgPermission, OrgRole } from '@/types/Auth';
+import type { MySql2Database } from 'drizzle-orm/mysql2';
+import type { Connection } from 'mysql2/promise';
 
-// Use type safe message keys with `next-intl`
-type Messages = typeof import('../locales/en.json');
-
-// eslint-disable-next-line ts/consistent-type-definitions
-declare interface IntlMessages extends Messages {}
+import type * as schema from '@/models/Schema';
 
 declare global {
-  // eslint-disable-next-line ts/consistent-type-definitions
-  interface ClerkAuthorization {
-    permission: OrgPermission;
-    role: OrgRole;
+  namespace NodeJS {
+    type Global = {
+      connection: Connection | undefined;
+      drizzle: MySql2Database<typeof schema> | undefined;
+    };
   }
 }
+
+export {};

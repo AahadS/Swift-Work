@@ -1,7 +1,7 @@
-import { SignUp } from '@clerk/nextjs';
+// src/app/[locale]/(auth)/(center)/sign-up/[[...sign-up]]/page.tsx
 import { getTranslations } from 'next-intl/server';
 
-import { getI18nPath } from '@/utils/Helpers';
+import SignUpClient from './signupclient';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -15,8 +15,6 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   };
 }
 
-const SignUpPage = (props: { params: { locale: string } }) => (
-  <SignUp path={getI18nPath('/sign-up', props.params.locale)} />
-);
-
-export default SignUpPage;
+export default function SignUpPage(props: { params: { locale: string } }) {
+  return <SignUpClient locale={props.params.locale} />;
+}

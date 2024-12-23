@@ -71,8 +71,12 @@
     "not_enough_permission": "Vous n'avez pas les permissions pour effectuer cette action"
   },
   "SignIn": {
-    "meta_title": "Se connecter",
-    "meta_description": "Connectez-vous à votre compte avec facilité."
+    "meta_title": "Connectez-vous à votre compte",
+    "meta_description": "Accédez à votre compte en toute sécurité.",
+    "welcome_message": "Bienvenue!",
+    "email_placeholder": "Entrez votre email",
+    "password_placeholder": "Entrez votre mot de passe",
+    "submit_button": "Se Connecter"
   },
   "SignUp": {
     "meta_title": "S'inscrire",
