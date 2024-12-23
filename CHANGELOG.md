@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/AahadS/Swift-Work/compare/v1.0.1...v1.0.2) (2024-12-23)
+
+
+### Bug Fixes
+
+* update DB connection to use async initialization ([b395183](https://github.com/AahadS/Swift-Work/commit/b395183b417aa4b1854250d69e5dbd510730a09e))
+
 ## [1.0.1](https://github.com/AahadS/Swift-Work/compare/v1.0.0...v1.0.1) (2024-12-23)
 
 
