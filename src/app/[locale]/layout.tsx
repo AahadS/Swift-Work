@@ -44,8 +44,8 @@ export default function RootLayout(props: {
   const messages = useMessages();
 
   return (
-    <html lang={props.params.locale} suppressHydrationWarning>
-      <body className="bg-background text-foreground antialiased" suppressHydrationWarning>
+    <html lang={props.params.locale}>
+      <body className="bg-background text-foreground antialiased">
         <NextIntlClientProvider
           locale={props.params.locale}
           messages={messages}

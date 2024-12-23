@@ -11,14 +11,11 @@ const intlMiddleware = createMiddleware({
 });
 
 export default clerkMiddleware(async (auth, req) => {
-  // Handle locale middleware first
   const response = intlMiddleware(req);
 
   const authData = await auth();
-  // If user isn't authenticated and trying to access protected routes
   if (!authData.userId && !req.url.match(/(sign-in|sign-up|\/$)/)) {
-    const locale = req.nextUrl.pathname.split('/')[1];
-    return NextResponse.redirect(new URL(`/${locale}/sign-in`, req.url));
+    return NextResponse.redirect(new URL('/sign-in', req.url));
   }
 
   return response;

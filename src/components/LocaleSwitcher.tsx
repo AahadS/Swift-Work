@@ -11,7 +11,6 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import { usePathname, useRouter } from '@/libs/i18nNavigation';
-import { AppConfig } from '@/utils/AppConfig';
 
 export const LocaleSwitcher = () => {
   const router = useRouter();
@@ -19,7 +18,7 @@ export const LocaleSwitcher = () => {
   const locale = useLocale();
 
   const handleChange = (value: string) => {
-    router.push(pathname, { locale: value });
+    router.push(pathname, { locale: value as 'en' });
     router.refresh();
   };
 
@@ -43,11 +42,9 @@ export const LocaleSwitcher = () => {
       </DropdownMenuTrigger>
       <DropdownMenuContent>
         <DropdownMenuRadioGroup value={locale} onValueChange={handleChange}>
-          {AppConfig.locales.map(elt => (
-            <DropdownMenuRadioItem key={elt.id} value={elt.id}>
-              {elt.name}
-            </DropdownMenuRadioItem>
-          ))}
+          <DropdownMenuRadioItem value="en">
+            English
+          </DropdownMenuRadioItem>
         </DropdownMenuRadioGroup>
       </DropdownMenuContent>
     </DropdownMenu>

@@ -22,10 +22,10 @@ export const SUBSCRIPTION_STATUS = {
 // On top of that, you'll get access to real example of SaaS application with Next.js, TypeScript, Tailwind CSS, and more.
 // You can find a live demo at: https://pro-demo.nextjs-boilerplate.com
 export type PricingPlan = {
-  id: PlanId;
+  id: string;
   price: number;
-  interval: BillingInterval;
-  testPriceId: string; // Use for testing
+  interval: string;
+  testPriceId: string;
   devPriceId: string;
   prodPriceId: string;
   features: {
